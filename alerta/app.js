@@ -38,7 +38,7 @@ client.on('message', function(topic, message) {
 });
 
 //Puerto donde corre el sistema
-server.listen(80);
+server.listen(8080);
 
 //Ruteo a las paginas
 app.use(express.static(__dirname + '/public'));
