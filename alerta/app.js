@@ -4,7 +4,6 @@ var express = require('express'),
 	io = require("socket.io").listen(server),
 	mqtt = require('mqtt'),
 	clientAlert = mqtt.connect({host:'192.168.251.3', port:1883})
-	Sensor = require("./models/sensor").Sensor,
 	document = require("min-document");
 
 //Puerto donde corre el sistema
